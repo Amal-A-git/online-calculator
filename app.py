@@ -26,3 +26,6 @@ if st.button("Calculate"):
 
     # Display the result
     st.success(f"The result is: {result}")
+
+if st.button("Clear"):
+    st.experimental_rerun()
